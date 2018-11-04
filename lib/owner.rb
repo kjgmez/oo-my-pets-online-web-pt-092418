@@ -43,9 +43,6 @@ class Owner
     self.pets.each_value{|pets| pets.clear}
   end
   def list_pets
-    dog = self.pets[:dogs].count
-    fish = self.pets[:fishes].count
-    cat = self.pets[:cats].count
-    "I have #{fish} fish, #{dog} dog(s), and #{cat} cat(s)."
+    "I have #{self.pets[:fishes].count} fish, #{self.pets[:dogs].count} dog(s), and #{self.pets[:cats].count} cat(s)."
   end
 end
