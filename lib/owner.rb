@@ -46,6 +46,6 @@ class Owner
     dog = self.pets[:dogs].count
     fish = self.pets[:fishes].count
     cat = self.pets[:cats].count
-    "I have #{fish} fish, #{dog} dog(s), and #{cat} cat(s)"
+    "I have #{fish} fish, #{dog} dog(s), and #{cat} cat(s)."
   end
 end
